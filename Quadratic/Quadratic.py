@@ -9,8 +9,3 @@ def quadratic(a, c, b):
     if d < 0:
         return ()
     return (-b + d ** (1 / 2)) / 2 * a, (-b - d ** (1 / 2)) / 2 * a
-
-
-a, b, c = map(float, input("a, b, c: ").split(","))
-
-print(quadratic(a, b, c))
