@@ -1,4 +1,3 @@
-import Quadratic
 from Quadratic import NormalQuadratic
 
 while True:
