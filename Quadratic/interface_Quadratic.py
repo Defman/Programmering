@@ -1,7 +1,10 @@
 import Quadratic
-
+from Quadratic import NormalQuadratic
 
 while True:
-    a, b, c = map(float, input("a, b, c: ").split(","))
-    print(Quadratic.quadratic(a, b, c))
+    try:
+        a, b, c = map(float, input("a, b, c: ").split(","))
+        print(NormalQuadratic().result(a, b, c))
+    except Exception:
+        print("Your input is not compliant")
 
